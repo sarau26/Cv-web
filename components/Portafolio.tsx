@@ -25,7 +25,7 @@ const portafolioData = [
       alt: 'Icono 2',
       tituloPor: 'Buscaminas es un proyecto desarrollado en JAVA con el tema de listas ligdas, el cual se hizo con objetivos académicos',
       descripcionPor: 'desssss',
-      linkRepo: 'https://github.com/cbasguti/ahorra_app'
+      linkRepo: 'https://github.com/sarau26/buscaminas'
     },
     {
         titulo: 'Ahorcado',
@@ -34,7 +34,7 @@ const portafolioData = [
         alt: 'Icono 2',
         tituloPor: 'Ahorcadito es el típico juego de adivinar palabras ocultas, es un proyecto desarrollado en JAVA con Websockets, lo que permite que varios clientes se conecten a un servidor a jugar al mismo tiempo.',
         descripcionPor: 'desssss',
-        linkRepo: 'https://github.com/cbasguti/ahorra_app'
+        linkRepo: 'https://github.com/sarau26/Comunicaciones2'
       },
       {
         titulo: 'Hoja de vida',
@@ -43,7 +43,7 @@ const portafolioData = [
         alt: 'Icono 2',
         tituloPor: 'Esta hoja de vida es un proyecto desarrollado con NextJs, React y TailwindCSS donde se pone en práctica la reutilización de componentes y el manejo de iconos y dialogos',
         descripcionPor: 'desssss',
-        linkRepo: 'https://github.com/cbasguti/ahorra_app'
+        linkRepo: 'https://github.com/sarau26/Cv-web'
       },
   ];
 
