@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug{
+    border: 1px solid red;
+}
+.fondo{
+    background-color: #F0F0F6;
+}
+
+.textos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+} 
+.nombre {
+    flex: 1;
+    text-align: left;
+}
+.valor {
+    flex: 1;
+    text-align: right;
+}
+
+.portfolio-container {
+    max-width: 100%; /* Asegura que el contenedor no se desborde de su contenedor padre */
+    overflow-x: auto; /* Habilita el desplazamiento horizontal cuando sea necesario */
+    white-space: nowrap; /* Evita que los elementos internos se envuelvan a la siguiente línea */
+  }
