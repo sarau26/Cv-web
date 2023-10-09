@@ -1,4 +1,5 @@
 import { Separador } from '@/components/Separador';
+import Image from "next/image";
 import { CampoInformacion } from '@/components/Information';
 import { Porcentaje } from '@/components/Porcentaje';
 import { Skills } from '@/components/Skills';
@@ -17,7 +18,7 @@ const SideBar = ({ imageUrl, altText, name,profession }: SideBarProps) =>{
         <aside className="h-full w-3/12 bg-white flex flex-col py-5 fixed">
             <div className="flex flex-col gap-2 px-4">
                 <div className="w-150 h-150 overflow-hidden mx-auto bg-gray-300 rounded-full" style={{ width: '150px', height: '150px' }}>
-                    <img src={imageUrl} alt={altText} width={150} height={150} />
+                <Image src={imageUrl} alt={altText} width={150} height={150} />
                 </div>
             </div>
             <span className="text-center font-semibold">{name}</span>

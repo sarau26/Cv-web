@@ -15,7 +15,7 @@ const portafolioData = [
       ruta: '/images/ahorra.jpg',
       alt: 'Icono App',
       tituloPor: 'AhorrApp es una aplicación móvil desarrollada en flutter, junto a dos compañeros de la carrera, en el cual el objetivo es comparar los precios de diferentes productos de la canasta familiar con precios reales en supermercados como el éxito, carulla y jumbo',
-      descripcionPor: 'desssss',
+      descripcionPor: 'AhorrApp',
       linkRepo: 'https://github.com/cbasguti/ahorra_app'
     },
     {
@@ -24,7 +24,7 @@ const portafolioData = [
       ruta: '/images/buscaminas.jpg',
       alt: 'Icono 2',
       tituloPor: 'Buscaminas es un proyecto desarrollado en JAVA con el tema de listas ligdas, el cual se hizo con objetivos académicos',
-      descripcionPor: 'desssss',
+      descripcionPor: 'Buscaminas',
       linkRepo: 'https://github.com/sarau26/buscaminas'
     },
     {
@@ -33,7 +33,7 @@ const portafolioData = [
         ruta: '/images/ahorcado.png',
         alt: 'Icono 2',
         tituloPor: 'Ahorcadito es el típico juego de adivinar palabras ocultas, es un proyecto desarrollado en JAVA con Websockets, lo que permite que varios clientes se conecten a un servidor a jugar al mismo tiempo.',
-        descripcionPor: 'desssss',
+        descripcionPor: 'Ahorcado',
         linkRepo: 'https://github.com/sarau26/Comunicaciones2'
       },
       {
@@ -42,7 +42,7 @@ const portafolioData = [
         ruta: '/images/cv.png',
         alt: 'Icono 2',
         tituloPor: 'Esta hoja de vida es un proyecto desarrollado con NextJs, React y TailwindCSS donde se pone en práctica la reutilización de componentes y el manejo de iconos y dialogos',
-        descripcionPor: 'desssss',
+        descripcionPor: 'Hoja de vida',
         linkRepo: 'https://github.com/sarau26/Cv-web'
       },
   ];

@@ -1,4 +1,5 @@
 import { Boton } from "@/components/Boton";
+import Image from "next/image";
 import { PerfilDialogo } from "@/components/Dialogos/PerfilDialogo";
 import { useState } from "react";
 
@@ -24,7 +25,7 @@ const Perfil = () => {
         className='bg-curri' text='Experiencia' handleClick={PerfilClick}/>
       </div>
       <div className="w-1/3 flex items-center justify-center">
-        <img
+        <Image
           src="/images/foto2.png"
           alt="Foto de perfil"
           width={200}
